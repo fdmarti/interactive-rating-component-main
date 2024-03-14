@@ -1,0 +1,39 @@
+.thank-you-card {
+	background-color: var(--darkBlue);
+	max-width: 350px;
+	border-radius: 20px;
+	padding: 30px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
+	text-align: center;
+}
+
+.option-message {
+	color: var(--orange);
+	background-color: var(--veryDarkIcon);
+	padding: 15px 20px;
+	border-radius: 50px;
+}
+
+.thank-you-card h3 {
+	color: var(--white);
+	margin-bottom: 15px;
+	font-size: 29px;
+}
+
+.thank-you-card p {
+	margin-bottom: 25px;
+	color: var(--mediumGray);
+	font-size: 17px;
+	line-height: 27px;
+}
+
+@media (max-width:600px ) {
+	.raiting-card {
+		width: 100%;
+		margin: 0 20px;
+	}
+}

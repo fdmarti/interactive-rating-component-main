@@ -1,0 +1,31 @@
+@import url('./fonts.css');
+
+:root {
+	--orange: hsl(25, 97%, 53%);
+	--lightGrey: hsl(217, 12%, 63%);
+	--mediumGray: hsl(216, 12%, 54%);
+	--darkBlue: hsl(213, 19%, 18%);
+	--veryDarkBlue: hsl(216, 12%, 8%);
+	--veryDarkIcon: hsl(212, 21%, 14%);
+	--white: #fff;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Nunito;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	min-height: 100vh;
+	position: relative;
+	background-color: var(--veryDarkBlue);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
